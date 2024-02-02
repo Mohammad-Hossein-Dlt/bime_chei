@@ -11,22 +11,27 @@ class ProfileAppbar extends StatefulWidget {
 class _ProfileAppbarState extends State<ProfileAppbar> {
   @override
   Widget build(BuildContext context) {
-    return SliverAppBar(
+    return const SliverAppBar(
       pinned: true,
       leading: Center(
-        child: Container(
-          margin: const EdgeInsets.only(left: 20),
-          decoration: const BoxDecoration(shape: BoxShape.circle),
-          child: Image.asset(
-            "assets/images/avatar.png",
-            width: 34,
-            height: 34,
-            fit: BoxFit.cover,
+        child: Padding(
+          padding: EdgeInsets.only(left: 20),
+          child: SizedBox(
+            width: 40,
+            height: 40,
+            child: FittedBox(
+              fit: BoxFit.cover,
+              child: CircleAvatar(
+                backgroundImage: AssetImage(
+                  "assets/images/avatar.png",
+                ),
+              ),
+            ),
           ),
         ),
       ),
       centerTitle: true,
-      actions: const [
+      actions: [
         SmallProfileMenu(),
       ],
     );

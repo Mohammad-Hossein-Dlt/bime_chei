@@ -77,16 +77,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   shape: BoxShape.circle,
                                 ),
                                 child: Container(
+                                  width: 110,
+                                  height: 110,
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     border: Border.all(color: orange, width: 2),
                                   ),
-                                  child: ClipRRect(
-                                    child: Image.asset(
-                                      "assets/images/avatar.png",
-                                      width: 110,
-                                      height: 110,
-                                      fit: BoxFit.cover,
+                                  child: const FittedBox(
+                                    fit: BoxFit.cover,
+                                    child: CircleAvatar(
+                                      backgroundImage: AssetImage(
+                                        "assets/images/avatar.png",
+                                      ),
                                     ),
                                   ),
                                 ),

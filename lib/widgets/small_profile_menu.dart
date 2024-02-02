@@ -80,12 +80,16 @@ class _SmallProfileMenuState extends State<SmallProfileMenu> {
                           ),
                         ),
                         const SizedBox(width: 6),
-                        ClipRRect(
-                          child: Image.asset(
-                            "assets/images/avatar.png",
-                            width: 40,
-                            height: 40,
+                        const SizedBox(
+                          width: 40,
+                          height: 40,
+                          child: FittedBox(
                             fit: BoxFit.cover,
+                            child: CircleAvatar(
+                              backgroundImage: AssetImage(
+                                "assets/images/avatar.png",
+                              ),
+                            ),
                           ),
                         ),
                       ],
@@ -157,13 +161,13 @@ class _SmallProfileMenuState extends State<SmallProfileMenu> {
                 ),
               ]
             : <PopupMenuEntry<Object>>[
-                PopupMenuItem(
+                const PopupMenuItem(
                   child: Align(
                     alignment: Alignment.center,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
-                        const Expanded(
+                        Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: [
@@ -189,13 +193,17 @@ class _SmallProfileMenuState extends State<SmallProfileMenu> {
                             ],
                           ),
                         ),
-                        const SizedBox(width: 10),
-                        ClipRRect(
-                          child: Image.asset(
-                            "assets/images/avatar.png",
-                            width: 40,
-                            height: 40,
+                        SizedBox(width: 10),
+                        SizedBox(
+                          width: 40,
+                          height: 40,
+                          child: FittedBox(
                             fit: BoxFit.cover,
+                            child: CircleAvatar(
+                              backgroundImage: AssetImage(
+                                "assets/images/avatar.png",
+                              ),
+                            ),
                           ),
                         ),
                       ],
