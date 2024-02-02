@@ -1,6 +1,6 @@
 import 'package:bime_chei/constants/colors.dart';
 import 'package:bime_chei/utils/theme/theme_provider.dart';
-import 'package:bime_chei/widgrts/custom_text_field.dart';
+import 'package:bime_chei/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

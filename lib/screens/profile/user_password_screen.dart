@@ -1,6 +1,6 @@
 import 'package:bime_chei/constants/colors.dart';
 import 'package:bime_chei/constants/iconsax_icons.dart';
-import 'package:bime_chei/widgrts/text_field_with_title.dart';
+import 'package:bime_chei/widgets/text_field_with_title.dart';
 import 'package:flutter/material.dart';
 
 class UserPasswordScreen extends StatefulWidget {

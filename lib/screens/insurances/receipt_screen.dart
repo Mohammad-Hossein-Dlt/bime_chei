@@ -1,6 +1,6 @@
 import 'package:bime_chei/constants/colors.dart';
 import 'package:bime_chei/utils/theme/theme_provider.dart';
-import 'package:bime_chei/widgrts/profile_appbar.dart';
+import 'package:bime_chei/widgets/profile_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

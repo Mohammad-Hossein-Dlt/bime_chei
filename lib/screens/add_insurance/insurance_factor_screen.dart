@@ -2,7 +2,7 @@ import 'package:bime_chei/constants/colors.dart';
 import 'package:bime_chei/constants/iconsax_icons.dart';
 import 'package:bime_chei/screens/add_insurance/finish_screen.dart';
 import 'package:bime_chei/utils/theme/theme_provider.dart';
-import 'package:bime_chei/widgrts/dash_separator.dart';
+import 'package:bime_chei/widgets/dash_separator.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

@@ -1,7 +1,7 @@
 import 'package:bime_chei/constants/colors.dart';
 import 'package:bime_chei/constants/iconsax_icons.dart';
 import 'package:bime_chei/screens/main_screen.dart';
-import 'package:bime_chei/widgrts/custom_text_field.dart';
+import 'package:bime_chei/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

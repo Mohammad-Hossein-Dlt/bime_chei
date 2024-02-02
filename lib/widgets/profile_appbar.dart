@@ -1,4 +1,4 @@
-import 'package:bime_chei/widgrts/small_profile_menu.dart';
+import 'package:bime_chei/widgets/small_profile_menu.dart';
 import 'package:flutter/material.dart';
 
 class ProfileAppbar extends StatefulWidget {

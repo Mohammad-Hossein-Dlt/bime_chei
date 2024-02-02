@@ -3,9 +3,9 @@ import 'package:bime_chei/constants/iconsax_icons.dart';
 import 'package:bime_chei/screens/add_insurance/basic_insurance_info_screen.dart';
 import 'package:bime_chei/utils/theme/theme_provider.dart';
 
-import 'package:bime_chei/widgrts/payment_item.dart';
-import 'package:bime_chei/widgrts/profile_appbar.dart';
-import 'package:bime_chei/widgrts/simple_insurance_item.dart';
+import 'package:bime_chei/widgets/payment_item.dart';
+import 'package:bime_chei/widgets/profile_appbar.dart';
+import 'package:bime_chei/widgets/simple_insurance_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
