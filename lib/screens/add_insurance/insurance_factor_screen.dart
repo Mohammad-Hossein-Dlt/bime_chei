@@ -41,7 +41,9 @@ class _InsuranceFactorScreenState extends State<InsuranceFactorScreen> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
                       child: const Icon(
                         Iconsax.arrow_right_1,
                         size: 24,
